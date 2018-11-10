@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<title>Osmosis Client Test</title>
+<link rel="stylesheet" type="text/css" href="dist/osmosis-client.css"></link>
+</head>
+<body>
+	<h1>Osmosis Client Test</h1>
+	<button type="button" onclick="openDocs()">Click me</button>
+
+	<script src="dist/osmosis-client.js"></script>
+	<script>
+		var client = new OsmosisClient("my-company", {
+			root: 'http://127.0.0.1:8000'
+		});
+		
+		function openDocs() {
+			client.open('home');
+		}
+	</script>
+</body>
+</html>

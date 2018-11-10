@@ -1,0 +1,61 @@
+.osmosis-client {
+	position: fixed;
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: 0%;
+    z-index: 1050;
+	-webkit-transition: width 0.5s linear;
+    transition: width 0.5s linear;
+    -webkit-box-shadow: 0 6px 36px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 36px rgba(0, 0, 0, 0.3);
+    
+    &.osmosis-client-show {
+		width: 66%;
+	}
+	
+	iframe {
+	    height: 100%;
+	    position: fixed;
+	    width: 66%;
+	    border: 0;
+	}
+}
+
+.osmosis-client-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    z-index: -1;
+    background-color: #000;
+    -webkit-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;
+    
+    &.osmosis-client-backdrop-show {
+    	opacity: .5;
+        z-index: 1040;
+    }
+}
+
+.osmosis-client-close {
+	position: absolute;
+    bottom: 0;
+    left: -20px;
+    font-size: 34px;
+    font-weight: bold;
+    margin: 20px 0;
+    cursor: pointer;
+    background-color: white;
+    padding: 0px 10px;
+    border-radius: 25px;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    
+    &:hover {
+        background-size: 100%;
+    	background-color: #f0f0f0;
+    }
+}
