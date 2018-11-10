@@ -2,7 +2,7 @@
   "name": "osmosis-client",
   "version": "1.0.3",
   "description": "A client for integrating your Osmosis documentation within your application.",
-  "main": "index.js",
+  "main": "./src/js/osmosis-client.js",
   "scripts": {
     "dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
