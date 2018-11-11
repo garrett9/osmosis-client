@@ -12,13 +12,13 @@
 }
 
 .osmosis-client.osmosis-client-show {
-  width: 66%;
+  width: 50%;
 }
 
 .osmosis-client iframe {
   height: 100%;
   position: fixed;
-  width: 66%;
+  width: 50%;
   border: 0;
 }
 

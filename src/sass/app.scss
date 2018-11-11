@@ -11,13 +11,13 @@
     box-shadow: 0 6px 36px rgba(0, 0, 0, 0.3);
     
     &.osmosis-client-show {
-		width: 66%;
+		width: 50%;
 	}
 	
 	iframe {
 	    height: 100%;
 	    position: fixed;
-	    width: 66%;
+	    width: 50%;
 	    border: 0;
 	}
 }
