@@ -8,7 +8,7 @@ const OsmosisClient = function(product, options) {
 		_this.backdrop.classList.remove("osmosis-client-backdrop-show");
 	};
 	
-	this.root = (options && options.root ? options.root : "https://osmosis.com") + "/docs?iframe=true#/" + product + "/";
+	this.root = (options && options.root ? options.root : "https://osmosis.com") + "/products/" + product + "?iframe=true#/";
 	this.product = product;
 	this.dialog = document.createElement("div");
 	this.dialog.classList.add("osmosis-client");
