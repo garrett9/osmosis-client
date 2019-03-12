@@ -1,0 +1,17 @@
+{
+  "name": "osmosis-client",
+  "description": "A client for integrating your Osmosis documentation within your application.",
+  "main": "./src/js/osmosis-client.js",
+  "authors": [
+    "garrett9"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/garrett9/osmosis-client",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
