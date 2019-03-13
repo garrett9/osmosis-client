@@ -1,5 +1,5 @@
 $screen-xs-max: 767px;
-$screen-md-max: 991px;
+$screen-lg-max: 1199px;
 
 .osmosis-client {
 	position: fixed;
@@ -16,7 +16,7 @@ $screen-md-max: 991px;
     &.osmosis-client-show {
 		width: 50%;
 		
-		@media(max-width: $screen-md-max) {
+		@media(max-width: $screen-lg-max) {
 	   		width: 75%;
 	    }
 		
@@ -35,7 +35,7 @@ $screen-md-max: 991px;
 	    width: 50%;
 	    border: 0;
 	    
-	    @media(max-width: $screen-md-max) {
+	    @media(max-width: $screen-lg-max) {
 	   		width: 75%;
 	    }
 	    
