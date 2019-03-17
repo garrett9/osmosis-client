@@ -10,12 +10,12 @@
 
 	<script src="dist/osmosis-client.js"></script>
 	<script>
-		var client = new OsmosisClient("osmosis", {
+		var client = new OsmosisClient(2, {
 			root: 'http://127.0.0.1:8000'
 		});
 		
 		function openDocs() {
-			client.open('products');
+			client.open('home/');
 		}
 	</script>
 </body>
