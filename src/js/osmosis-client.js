@@ -61,7 +61,7 @@ OsmosisClient.prototype.open = function(page) {
 	
 	var pagePath = null;
 	if(typeof page === 'string') {
-		var key = page.replace(/^\/|\/$/g, '');
+		var key = page.replace(/^\/|\/$/g, '').toLowerCase();
 		if(this.pages[key]) {
 			pagePath = this.pages[key];
 		} else {
